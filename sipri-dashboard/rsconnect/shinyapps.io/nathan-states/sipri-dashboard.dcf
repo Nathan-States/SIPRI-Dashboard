@@ -1,0 +1,11 @@
+name: sipri-dashboard
+title:
+username:
+account: nathan-states
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7252582
+bundleId: 6388917
+url: https://nathan-states.shinyapps.io/sipri-dashboard/
+when: 1665432386.29125
+lastSyncTime: 1665432386.29125
