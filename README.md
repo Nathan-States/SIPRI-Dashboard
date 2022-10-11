@@ -4,6 +4,16 @@ This is a dashboard that displays military spending across all countries, coveri
 
 The dashboard can be accessed at: https://nathan-states.shinyapps.io/sipri-dashboard/
 
+## Files 
+
+The folder "old-data" contains `sipri.xlsx`, which is the raw Excel sheet provided by SIPRI when downloading the full dataset. `data-cleaning.R` goes through and makes the neccessary changes to convert the `.xlsx` into a usable `.csv`. 
+
+"sipri-dashboard" is where the app itself is stored. The important files / folders are: 
+
+* R: This contains three R files that build the three main slides of the dashboard. 
+* `app.r`: The actual UI and server for building the website. 
+* `sipri-military-expenditure.csv`: This is the updated `.csv` created from `data-cleaning.R`. 
+
 ## Tools Used 
 
 * **RShiny**: Application was uploaded using `rsconnect` on [shinyapps.io](https://www.shinyapps.io/)
